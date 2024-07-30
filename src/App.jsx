@@ -1,8 +1,7 @@
 import { useState } from 'react'
 
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import Sidebar from "./components/sidebar"
 
 
 function App() {
@@ -10,11 +9,11 @@ function App() {
   return (
     <>
     <div className='App'>
-      <h1>Hello cool kids</h1>
-      <p>
-        hello i am a paragraph n shit
-      </p>
-    
+      
+      {/* below is how to call imported component */}
+      <Sidebar /> 
+        
+
     </div>
     </>
     
@@ -22,4 +21,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

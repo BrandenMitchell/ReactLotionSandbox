@@ -1,18 +1,23 @@
-
-:root{
-    /* custom css vars */
-    --text-primary: black;
-
-}
-
-body{
-    margin: none;
-    padding: none;
-    background-color: rgb(14, 15, 15);
+.App{
     height: 100vh;
     width: 100vw;
+    margin: none;
+    padding: none;
+    background-color: rgba(59, 19, 177, 0.732);
+}
+
+.App body{
+    margin: 0;
+    padding: 0;
+   
 }
 
 .Sidebar{
-    font-size: 50px;
+    height: 100vh;
+    background-color: rgb(129, 163, 163);
+    width: 250px;
+    margin: none;
+    padding: none;
+    
+
 }
